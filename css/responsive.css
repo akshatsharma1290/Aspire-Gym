@@ -1,0 +1,252 @@
+/* ***For phone**** */
+
+
+
+@media screen and  (max-width:992px)  {
+
+*{
+    scroll-margin: 145px;
+}
+    header{
+    text-align: center;
+  
+}
+/* navbar  */
+.navbar{
+   
+    flex-direction: column;
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    font-size: 1.5rem;
+    padding: 0;
+}
+nav ul{
+    display: grid;
+    grid-template-columns: 19vw 18vw 21vw 21vw 23vw;
+    margin: 0;
+    place-items: center;
+}
+nav ul li{
+    padding: 6px;
+    font-size: 0.98rem;
+  
+}
+
+
+.btn{
+    display: none;
+}
+.bcm{
+    position: relative;
+    bottom: 7vh;
+}
+
+/* Home  */
+.top{
+   top: 16vh;
+
+}
+.line{
+    font-size: 0.96rem;
+}
+.main-line{
+    display: flex;
+    margin-top: 2vh;
+    flex-direction: column;
+    align-items: center;
+}
+.main-line span{
+    font-size: 3rem;
+    height: 9vh;
+    letter-spacing: 0.56vh;
+}
+.mid-btn{
+    margin-top: 33vh;
+width: 44vw;
+}
+.home-container{
+    height: 80vh;
+}
+
+/* features  */
+
+.feature-top{
+    display: flex;
+align-items: center;
+justify-content: center;
+margin: 0;
+}
+.feature-head{
+    margin-top: 48px;
+display: flex;    
+align-items: center;
+flex-direction: column;
+}
+.fa1{
+    margin-top: 8vh;
+}
+.motive-line{
+    width: 85vw;
+}
+.feature-all-items{
+    flex-wrap: wrap;
+    
+}
+.left-img{
+    margin-left: 5vw;
+margin-right: 6vw;
+}
+.right-content{
+    width: 60vw;
+}
+.right-content h2{
+    font-size: 1.3rem;
+}
+.feature-btn{
+    width: 61vw;
+}
+.feature-m{
+    margin-top: 35px;
+}
+.m-bn{
+    margin-top: 4vh;
+}
+.mid-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mid-part{
+    margin-top: 8vh;
+}
+
+/* classes  */
+
+
+.classes{
+    flex-wrap: wrap;
+}
+.desktop{
+    display: none;
+}
+.l-con{
+    width: 88vw;
+    margin-left: 3vh;
+}
+.left-imgs img{
+    width: 185vw;
+    bottom: 0;
+}
+.left-imgs{
+    bottom: 0;
+}.lmg{
+    grid-template-rows: unset;
+}
+/* Trainers section  */
+
+.trainers{
+    flex-direction: column;
+    align-items: center;
+}
+.train-item{
+    margin-left: 0;
+    width: 95vw;
+    height: 56vh;
+    margin-bottom: 2vh;
+}
+.trainer-img{
+    text-align: center;
+}
+
+/* footer section  */
+
+.footer-section{
+    flex-direction: column;
+}
+.map{
+    width: 100vw;
+}
+.form{
+    width: 100vw;
+}
+.inputs{
+    width: 92vw;
+    height: 120vw;
+}
+.bth{
+width: 40vw;
+
+}
+.inps1{
+    margin-right: 16px;
+}
+.inps3, .inps4 {
+    width: 83vw;
+}
+.f-btn{
+    width: 46vw;
+}
+
+.fp{
+    text-align: center;
+    width: 65vw;
+}
+
+}
+/* for ipad  */
+@media (min-width:700px) and (max-width:992px){
+
+    .inputs{
+        height: 93vw;
+    }
+}
+
+/* For desktops */
+@media (min-width:1400px) and (max-width:3000px){
+.feature-all-items{
+    justify-content: center;
+}
+    .bcm{
+        position: relative;
+    bottom: 5vh;
+    }
+    .home-container{
+        height: 83vh;
+    }
+ul{
+    margin-right: 0;
+}
+.feature-m{
+    margin-top: 2.5vh;
+}
+.dfm{
+    margin-top: 0;
+}
+.train-item{
+    height: 56vh;
+}
+.fa2{
+    margin-top: 63px;
+}
+}
+/* Big desktop  */
+
+@media (min-width:1900px) and (max-width:3000px){
+
+.bcm{
+    bottom: 6vh;
+}
+.home-container{
+    height: 66vh;
+}
+.train-item{
+    height: 48vh;
+}
+
+
+}
