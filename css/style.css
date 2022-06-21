@@ -9,9 +9,9 @@
     scroll-margin: 121px;
     
 }
-html,body{
+html{
     scroll-behavior: smooth;
-  overflow-x: hidden;    ]
+  overflow-x: hidden;    
     margin:0;
     padding:0;
 }
