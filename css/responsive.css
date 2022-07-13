@@ -20,8 +20,7 @@ html,body{
      
 }
 body{
-    overflow-x: hidden;
-
+    overflow:hidden;
 }
 /* navbar  */
 .navbar{
@@ -296,9 +295,7 @@ width: 40vw;
     .toggle{
         left: 35vw;
     }
-    .train-item{
-        height: 41vh;
-    }
+   
     .main-line span{
         height: 7vh;
     }
@@ -388,6 +385,16 @@ width: 40vw;
      .home-container{
          height: 68vh;
      }
+     .class-content{
+         width: 100vw;
+     }
+     .inputs{
+         min-height: 30vh;
+     }
+     .f-btn{
+         margin-top: 4px;
+     }
+
 
 }
 
@@ -444,4 +451,114 @@ ul{
     .mid-part{
         height: 45vh;
     }
+}
+
+@media (min-width:993px) and (max-width:1200px){
+
+    
+.logo{
+    margin: 0;
+}
+ul{
+    margin-right: 0;
+}
+.top{
+    top: 31vh;
+}
+.mid-btn{
+    width: 15vw;
+}
+.left-img{
+    margin-left: 0;
+}
+.feature-all-items{
+    justify-content: center;
+}
+.feature-btn{
+    width: 15vw;
+}
+.u-con{
+    width: 50vw;
+    flex-direction: column;
+}
+.class-content{
+width: 38vw;
+}
+.l-con{
+    width: 32vw;
+}
+
+.left-imgs{
+    position: static;
+    grid-template-rows: 22vw;
+grid-template-columns: 31vw 10vh;
+}
+.trainers{
+    flex-wrap: nowrap;
+}
+.train-item img{
+    margin-left: 5vw;
+}
+.tr-1{
+    margin-right: 2vw;
+    margin-left: 0;
+}.map{
+    height: 44vh;
+}
+.form{
+    height: 44vh;
+
+}
+.inputs{
+    height: 38vh;
+}
+.f-btn{
+    margin-top: 1vw;
+}
+.tr-3{
+    display: none;
+}
+    
+}
+@media (min-width:1030px) and (max-width:1264px){
+
+    .class-content{
+    min-width: 31vw;
+    }
+.l-con{
+    margin-left: 2vw;
+}
+.tr-3{
+    display: block;
+}
+.train-item{
+    min-width: 24vw;
+}
+.train-item img{
+    width: 16vw;
+}
+.train-item{
+    min-height: 45vh;
+}
+.trainer-img{
+    display: flex;
+justify-content: center;
+align-content: center;
+align-items: center;
+width: 14vw;
+}
+.tr-1{
+    margin-left: 4vw;
+}
+.inputs{
+    margin: 2vh auto;
+    min-height: 40vh;
+}
+}
+@media (min-width:1202px) and (max-width:1252px){
+
+.class-content{
+    width: 31vw;
+}
+
 }
