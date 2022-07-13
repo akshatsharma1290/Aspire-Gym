@@ -7,26 +7,29 @@
     box-sizing: border-box;
   
     scroll-margin: 121px;
-    
+      
+
 }
 html,body{
     scroll-behavior: smooth;
-  overflow-x: hidden;    
-    margin:0;
-    padding:0;
+  margin: 0;
+  padding: 0;
+}
+body{
+    overflow-x: hidden;
 }
 
 /* navbar */
 
 header{
-    position: sticky;
-    top: 0;
+
     z-index: 1;
+    
+    background-color: #6c757d;
 }
 .navbar{
     display: flex;
     justify-content: space-between;
-    background-color: #6c757d;
     min-height: 80px;
 
     
@@ -41,7 +44,6 @@ padding: 12px;
 margin: 0 111px;
 }
 
-    
 ul{
     display: flex;
     font-family: 'Tajawal', sans-serif;
@@ -68,12 +70,37 @@ a{
 }
 
 
+.stickynav{
+    position: sticky;
+    top: 0;
+background-color: white;
+transition: 0.5s;
+}
+
+.stickynav .navbar .one{
+    color: #000;
+}
+.stickynav .navbar .links{
+    color: #000;
+}
+.stickynav .navbar .btn:hover{
+    background-color: #eb5339;
+}
+
+.stickynav .navbar .btn:hover a{
+    color: black;
+}
+.stickynav .navbar .links:hover{
+    color: #eb5339;
+}
 
 
 .one{
     color: white;
     margin-right: 6px;
 }
+
+
 .two{
     color: #ed563b;
 }
@@ -95,6 +122,9 @@ a{
 .sign-btn{
 padding: 18px 23px;
 letter-spacing: 1px;
+}
+.toggle{
+    display: none;
 }
 /* Navbar end  */
 
@@ -320,7 +350,7 @@ grid-template-columns: 435px 65px;
 
 /* trainers  */
 .train-item{
-   height: 70vh;
+   min-height: 60vh;
     width: 24vw;
     margin-left: 100px;
     box-shadow: 0px 6px 20px #b9b9b9;
