@@ -9,44 +9,58 @@
     <link rel="stylesheet" href="favicon.ico">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
- 
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-   
+
 </head>
 
 <body>
     <header>
         <!-- ******Navbar-start ****** -->
-     <nav class="navbar" id="navbar">
-            <div class="logo"><span class="one">ASPIRE</span><span class="two">GYM</span></div>
-            
+        <nav class="navbar" id="navbar">
+            <div class="logo"><span class="one">ASPIRE</span><span class="two one2">GYM</span>
+                
+                
+                <!-- This is toggler is for android  -->
+            <div class="toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <!-- toggler end  -->
+            </div>
+
             <ul>
-                <li><a href="#home" class="nav">Home</a></li>
-                <li><a href="#features">About</a></li>
-                <li><a href="#mid">Classes</a></li>
-                <li><a href="#trainer-section">Trainers</a></li>
-                <li><a href="#fsc">Contact</a></li>
+                <li><a href="#home" class="links">Home</a></li>
+                <li><a href="#features"  class="links">About</a></li>
+                <li><a href="#mid" class="links">Classes</a></li>
+                <li><a href="#trainer-section"  class="links">Trainers</a></li>
+                <li><a href="#fsc"  class="links">Contact</a></li>
                 <li><button class="btn"><a href="#" class="sign-btn"><span>SIGN</span><span>UP</span></a></button>
                 </li>
             </ul>
-        
+
 
 
 
 
         </nav>
+
+
+
     </header>
-        <!-- *****Navbar ending*****-->
+    <!-- *****Navbar ending*****-->
 
     <main>
         <!-- Home start  -->
 
         <div class="home-container" id="home">
             <h2 class="top line">WORK HARDER, GET STRONGER</h2>
-            <h1 class="top main-line"><span class="sp1">EASY </span> <span>WITH </span> <span>OUR</span>  <span class="two">GYM</span> </h1>
+            <h1 class="top main-line"><span class="sp1">EASY </span> <span>WITH </span> <span>OUR</span> <span
+                    class="two">GYM</span> </h1>
 
-             <a href="#features" class="mid-btn bcm touch">Become a Member</a>
-           
+            <a href="#features" class="mid-btn bcm touch">Become a Member</a>
+
         </div>
         <!-- Home end  -->
 
@@ -165,7 +179,7 @@
                         </li>
 
                         <li class="l-con con-main">
-                            <div class="l-btn"  ><a href="#home"> view all Schedules</a> </div>
+                            <div class="l-btn"><a href="#home"> view all Schedules</a> </div>
                         </li>
 
                     </ul>
@@ -178,7 +192,7 @@
                     <img class="desktop" src="img/img4.png" alt="">
 
                 </div>
-                                                            
+
 
 
 
@@ -193,19 +207,20 @@
                     <p class="motive-line ml-3">
 
 
-                        Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies Lorem
-                       .</p>
+                        Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies
+                        Lorem
+                        .</p>
 
 
 
                 </div>
 
-                <div class="trainers" id="trainers">
-                    <div class="train-item">
-                        <div class="trainer-img">  
-                            <img src="img/first-trainer.jpg" alt="">
+                <div class="trainers " id="trainers">
+                    <div class="train-item tr-1" >
+                        <div class="trainer-img">
+                            <img  src="img/first-trainer.jpg" alt="">
                         </div>
-                      
+
                         <p class="red-head"> Strength Trainer</p>
                         <h2>Bret D. Bowers</h2>
                         <p class="grey-foot">Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents
@@ -215,10 +230,10 @@
                         <i class="fa-brands fa-linkedin-in"></i>
                         <i class="fa-brands fa-instagram"></i>
                     </div>
-                    <div class="train-item">
+                    <div class="train-item tr-2">
                         <div class="trainer-img">
 
-                            <img src="img/second-trainer.jpg" alt="">
+                            <img  src="img/second-trainer.jpg" alt="">
                         </div>
                         <p class="red-head">Muscle Trainer</p>
                         <h2>Hector T. Daigl</h2>
@@ -230,9 +245,9 @@
                         <i class="fa-brands fa-instagram"></i>
                     </div>
 
-                    <div class="train-item">
+                    <div class="train-item tr-3">
                         <div class="trainer-img">
-                            <img src="img/third-trainer.jpg" alt="">
+                            <img  src="img/third-trainer.jpg" alt="">
 
                         </div>
                         <p class="red-head">Power Trainer</p>
@@ -253,39 +268,32 @@
         <div class="footer-section" id="fsc">
             <div class="map-img">
                 <img class="map"
-
-                    src=
-                   " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNCfRNW2FMhCQMHj0UIAalXQsPonfgvTlbLA&usqp=CAU"
+                    src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNCfRNW2FMhCQMHj0UIAalXQsPonfgvTlbLA&usqp=CAU"
                     alt="map-img">
-                </div>
-                <div class="form">
-                    <div class="inputs">
-                        <div class="bth-tog">    
-                             <input class="inps1 ipt bth" type="text" name="name" id="name" placeholder="Enter Your Name">
-                            <input class="inps2 ipt bth" type="email" name="email" id="email" placeholder="Enter your Email"></div>
-                   
-                        <input class="inps3 ipt" type="text" name="no" id="no" placeholder="Enter Your Mobile Number">
-                        <textarea class="inps4 ipt" name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-                        <div class="f-btn"> <a href=""> Send Message</a> </div>
-                
             </div>
+            <div class="form">
+                <div class="inputs">
+                    <div class="bth-tog">
+                        <input class="inps1 ipt bth" type="text" name="name" id="name" placeholder="Enter Your Name">
+                        <input class="inps2 ipt bth" type="email" name="email" id="email"
+                            placeholder="Enter your Email"></div>
 
+                    <input class="inps3 ipt" type="text" name="no" id="no" placeholder="Enter Your Mobile Number">
+                    <textarea class="inps4 ipt" name="message" id="message" cols="30" rows="10"
+                        placeholder="Message"></textarea>
+                    <div class="f-btn"> <a href=""> Send Message</a> </div>
 
-
-
+                </div></div>
 
 
         </div>
+        <div class="main-footer">
+            <p class="fp">
+                copyright &copy; aspire gym-designed by akshat sharma <i class="fa-solid fa-dumbbell"></i>
+            </p>
 
 
         </div>
-<div class="main-footer">
-<p class="fp">
-    copyright &copy;  aspire gym-designed by akshat sharma <i class="fa-solid fa-dumbbell"></i>
-</p>
-
-
-</div>
 
 
 
@@ -298,55 +306,34 @@
 
 
 
+<script>
+
+let menutoggler = document.querySelector(".toggle");
+menutoggler.onclick = function(){
+    menutoggler.classList.toggle("active");
+    document.querySelector("ul").classList.toggle("uldown");
+}
+
+let mynav = document.querySelector("header");
+window.onscroll = function(){
+
+    if(document.documentElement.scrollTop >= 600){
+        mynav.classList.add("stickynav");
+    }
+     else{
+         mynav.classList.remove("stickynav");
+     }
+
+
+
+}
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</script>
 
 
 </body>
